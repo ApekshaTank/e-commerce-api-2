@@ -3151,7 +3151,7 @@ const data = {
 app.use(express.json());
 
 app.get('/', (req, res) => {
-  res.send('Welcome to the E-commerce API!');
+  res.send('Welcome to the E-commerce API 2! kindly user /api2/ then respective path.');
 });
 
 // Endpoints
